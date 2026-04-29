@@ -129,7 +129,7 @@
     <ClCompile Include="Zinsrechnung.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Readme.md" />
+    <None Include="..\Readme.md" />
     <None Include="TeuflischeFolge.md" />
     <None Include="Zinsrechnung.md" />
   </ItemGroup>

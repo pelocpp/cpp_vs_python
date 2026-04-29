@@ -32,14 +32,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Readme.md">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="Zinsrechnung.md">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="TeuflischeFolge.md">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\Readme.md" />
   </ItemGroup>
 </Project>

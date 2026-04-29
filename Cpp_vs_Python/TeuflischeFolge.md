@@ -1,6 +1,6 @@
 # Teuflische Folge
 
-[Zurück](Readme.md)
+[Zurück](../Readme.md)
 
 ---
 
@@ -77,7 +77,6 @@
 26:     example_teuflische_folge(value)
 ```
 
-
 *Hinweise*:
 
   * In Python wandelt ein einfacher Schrägstrich `/` das Ergebnis
@@ -90,9 +89,8 @@
 
   * Die interne Funktion `int()` wandelt diesen Text in eine ganze Zahl um.
 
-
 ---
 
-[Zurück](Readme.md)
+[Zurück](../Readme.md)
 
 ---
