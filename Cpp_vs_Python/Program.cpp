@@ -2,8 +2,13 @@
 // Program.cpp // Cpp versus Python
 // ===========================================================================
 
+void example_teuflische_folge();
+void example_zinsrechnung();
+
 int main()
 {
+    example_teuflische_folge();
+
     return 0;
 }
 

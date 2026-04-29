@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Zinsrechnung">
+      <UniqueIdentifier>{b7be7da8-5625-4533-8e1c-cc5214ceae94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TeuflischeFolge">
+      <UniqueIdentifier>{2ae56775-6e2f-4b67-8cc1-64493e03c5ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Zinsrechnung.cpp">
+      <Filter>Source Files\Zinsrechnung</Filter>
+    </ClCompile>
+    <ClCompile Include="TeuflischeFolge.cpp">
+      <Filter>Source Files\TeuflischeFolge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Zinsrechnung.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TeuflischeFolge.md">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
