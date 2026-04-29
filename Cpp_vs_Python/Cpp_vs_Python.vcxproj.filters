@@ -19,6 +19,9 @@
     <Filter Include="Source Files\TeuflischeFolge">
       <UniqueIdentifier>{2ae56775-6e2f-4b67-8cc1-64493e03c5ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\BankAccount">
+      <UniqueIdentifier>{9b76b2a4-2064-48bf-bf0d-c9f8efe1b093}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -30,6 +33,12 @@
     <ClCompile Include="TeuflischeFolge.cpp">
       <Filter>Source Files\TeuflischeFolge</Filter>
     </ClCompile>
+    <ClCompile Include="BankAccount.cpp">
+      <Filter>Source Files\BankAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="BankAccount_Example.cpp">
+      <Filter>Source Files\BankAccount</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Zinsrechnung.md">
@@ -39,5 +48,13 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\Readme.md" />
+    <None Include="BankAccount.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankAccount.h">
+      <Filter>Source Files\BankAccount</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

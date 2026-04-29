@@ -4,11 +4,11 @@
 
 void example_teuflische_folge();
 void example_zinsrechnung();
+void example_bank_account();
 
 int main()
 {
-    example_teuflische_folge();
-
+    example_bank_account();
     return 0;
 }
 
