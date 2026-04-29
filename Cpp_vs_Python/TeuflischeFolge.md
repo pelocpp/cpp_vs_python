@@ -6,6 +6,8 @@
 
 ## Realisierung in C++
 
+Zum Testen des Beispiels sind `7` und `27` geeignete Startwerte:
+
 ```cpp
 01: static void berechne_teuflische_folge(int start);
 02: 
