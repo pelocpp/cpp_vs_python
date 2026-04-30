@@ -22,6 +22,9 @@
     <Filter Include="Source Files\BankAccount">
       <UniqueIdentifier>{9b76b2a4-2064-48bf-bf0d-c9f8efe1b093}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lists">
+      <UniqueIdentifier>{93793d3f-27a3-4a11-8a96-d17b1f797ab2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -39,6 +42,9 @@
     <ClCompile Include="Zinsrechnung\Zinsrechnung.cpp">
       <Filter>Source Files\Zinsrechnung</Filter>
     </ClCompile>
+    <ClCompile Include="Lists\Lists.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />
@@ -50,6 +56,21 @@
     </None>
     <None Include="Zinsrechnung\Zinsrechnung.md">
       <Filter>Source Files\Zinsrechnung</Filter>
+    </None>
+    <None Include="Lists\Lists.md">
+      <Filter>Source Files\Lists</Filter>
+    </None>
+    <None Include="Lists\Lists.py">
+      <Filter>Source Files\Lists</Filter>
+    </None>
+    <None Include="TeuflischeFolge\TeuflischeFolge.py">
+      <Filter>Source Files\TeuflischeFolge</Filter>
+    </None>
+    <None Include="Zinsrechnung\Zinsrechnung.py">
+      <Filter>Source Files\Zinsrechnung</Filter>
+    </None>
+    <None Include="BankAccount\BankAccount.py">
+      <Filter>Source Files\BankAccount</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

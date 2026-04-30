@@ -5,10 +5,11 @@
 void example_teuflische_folge();
 void example_zinsrechnung();
 void example_bank_account();
+void example_lists();
 
 int main()
 {
-    example_bank_account();
+    example_lists();
     return 0;
 }
 
