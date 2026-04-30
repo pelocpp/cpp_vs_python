@@ -3,6 +3,7 @@
 // =====================================================================================
 
 #include <print>
+#include <ranges>
 #include <variant>
 #include <vector>
 
@@ -53,11 +54,36 @@ static void example_lists_02_heterogeneous()
     std::print("]");
 }
 
+static void example_lists_03_list_comprehension()
+{
+    std::vector numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+    auto view = numbers
+        | std::views::filter([](int x) { return x % 2 == 0; })
+        | std::views::transform([](int x) { return x * x; });
+
+    std::vector<int> result{ view.begin(), view.end() };
+
+    for (int x : result) {
+        std::print("{} ", x);
+    }
+}
+
+static void example_lists_04_list_traversal()
+{
+    std::vector numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+    for (int x : numbers) {
+        std::print("{} ", x);
+    }
+}
 
 void example_lists()
 {
-   // example_lists_01_homogenous();
-    example_lists_02_heterogeneous();
+    // example_lists_01_homogenous();
+    //example_lists_02_heterogeneous();
+    // example_lists_03_list_comprehension();
+    example_lists_04_list_traversal();
 }
 
 // =====================================================================================
