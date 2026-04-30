@@ -124,20 +124,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BankAccount.cpp" />
-    <ClCompile Include="BankAccount_Example.cpp" />
+    <ClCompile Include="BankAccount\BankAccount.cpp" />
+    <ClCompile Include="BankAccount\BankAccount_Example.cpp" />
     <ClCompile Include="Program.cpp" />
-    <ClCompile Include="TeuflischeFolge.cpp" />
-    <ClCompile Include="Zinsrechnung.cpp" />
+    <ClCompile Include="TeuflischeFolge\TeuflischeFolge.cpp" />
+    <ClCompile Include="Zinsrechnung\Zinsrechnung.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Readme.md" />
-    <None Include="BankAccount.md" />
-    <None Include="TeuflischeFolge.md" />
-    <None Include="Zinsrechnung.md" />
+    <None Include="BankAccount\BankAccount.md" />
+    <None Include="TeuflischeFolge\TeuflischeFolge.md" />
+    <None Include="Zinsrechnung\Zinsrechnung.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BankAccount.h" />
+    <ClInclude Include="BankAccount\BankAccount.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

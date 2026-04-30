@@ -27,33 +27,33 @@
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Zinsrechnung.cpp">
-      <Filter>Source Files\Zinsrechnung</Filter>
+    <ClCompile Include="BankAccount\BankAccount.cpp">
+      <Filter>Source Files\BankAccount</Filter>
     </ClCompile>
-    <ClCompile Include="TeuflischeFolge.cpp">
+    <ClCompile Include="BankAccount\BankAccount_Example.cpp">
+      <Filter>Source Files\BankAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="TeuflischeFolge\TeuflischeFolge.cpp">
       <Filter>Source Files\TeuflischeFolge</Filter>
     </ClCompile>
-    <ClCompile Include="BankAccount.cpp">
-      <Filter>Source Files\BankAccount</Filter>
-    </ClCompile>
-    <ClCompile Include="BankAccount_Example.cpp">
-      <Filter>Source Files\BankAccount</Filter>
+    <ClCompile Include="Zinsrechnung\Zinsrechnung.cpp">
+      <Filter>Source Files\Zinsrechnung</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Zinsrechnung.md">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="TeuflischeFolge.md">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\Readme.md" />
-    <None Include="BankAccount.md">
-      <Filter>Resource Files</Filter>
+    <None Include="BankAccount\BankAccount.md">
+      <Filter>Source Files\BankAccount</Filter>
+    </None>
+    <None Include="TeuflischeFolge\TeuflischeFolge.md">
+      <Filter>Source Files\TeuflischeFolge</Filter>
+    </None>
+    <None Include="Zinsrechnung\Zinsrechnung.md">
+      <Filter>Source Files\Zinsrechnung</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BankAccount.h">
+    <ClInclude Include="BankAccount\BankAccount.h">
       <Filter>Source Files\BankAccount</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,6 @@
 # Beispiel zur Zinsrechnung
 
-[Zurück](../Readme.md)
+[Zurück](../../Readme.md)
 
 ---
 
@@ -74,6 +74,6 @@
 
 ---
 
-[Zurück](../Readme.md)
+[Zurück](../../Readme.md)
 
 ---

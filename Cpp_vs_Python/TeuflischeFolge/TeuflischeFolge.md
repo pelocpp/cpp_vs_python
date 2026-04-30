@@ -1,6 +1,6 @@
 # Teuflische Folge
 
-[Zurück](../Readme.md)
+[Zurück](../../Readme.md)
 
 ---
 
@@ -93,6 +93,6 @@ Zum Testen des Beispiels sind `7` und `27` geeignete Startwerte:
 
 ---
 
-[Zurück](../Readme.md)
+[Zurück](../../Readme.md)
 
 ---

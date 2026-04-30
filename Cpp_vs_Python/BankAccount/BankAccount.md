@@ -1,7 +1,7 @@
 # Klasse `BankAccount`
 
 
-[Zurück](../Readme.md)
+[Zurück](../../Readme.md)
 
 ---
 
@@ -307,6 +307,6 @@ dass eine Variable  &bdquo;protected&rdquo; (intern) ist.
 
 ---
 
-[Zurück](../Readme.md)
+[Zurück](../../Readme.md)
 
 ---
