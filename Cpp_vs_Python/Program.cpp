@@ -10,7 +10,7 @@ void example_tuples();
 
 int main()
 {
-    example_tuples();
+    example_lists();
     return 0;
 }
 

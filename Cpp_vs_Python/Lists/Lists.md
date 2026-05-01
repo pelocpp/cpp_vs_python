@@ -30,18 +30,16 @@ während C++ Container statisch typisiert ist.
 02: {
 03:     std::vector list = { 1, 2, 3, 4, 5 };
 04: 
-05:     std::print("[");
-06:     for (auto i{ 0 }; auto n : list) {
-07:         if (i != list.size() - 1) {
-08:             std::print("{}, ", n);
-09:             ++i;
-10:         }
-11:     }
-12:     if (list.size() != 0) {
-13:         std::print("{}", list.back());
-14:     }
-15:     std::print("]");
-16: }
+05:     auto print_list = [](const auto& list) {
+06:         std::print("[");
+07:         for (size_t i{}; i != list.size(); ++i) {
+08:             std::print("{}{}", list[i], (i == list.size() - 1) ? "" : ", ");
+09:         }
+10:         std::println("]");
+11:     };
+12: 
+13:     print_list(list);
+14: }
 ```
 
 *Ausgabe*:
@@ -53,9 +51,7 @@ während C++ Container statisch typisiert ist.
 Wir müssen beim Vergleich der beiden Realisierungen etwas *Fair Play* walten lassen:
 Python unterstützt in der *built-in* Funktion `print` eine Ausgabe von Listen,
 das ist bei C++ so nicht der Fall.
-
-Deshalb können wir hier die Daten
-in einem `std::vector`-Objekt ablegen und müssen für die Ausgabe eine
+Deshalb müssen wir in diesem Fall für die Ausgabe eine
 entsprechende Funktion selbst schreiben.
 
 Da wir so nebensächliche Dinge wie die Ausgabe eines Komma zwischen zwei Elementen,
@@ -75,43 +71,40 @@ list = ["Hans", 123, "Sepp", 123]
 print(list) 
 ```
 
+*Ausgabe*:
+
+```
+['Hans', 123, 'Sepp', 123]
+```
+
 #### Realisierung in C++
 
 ```cpp
 01: void example_lists()
 02: {
-03:     std::vector<std::variant<std::string, int>> list = {
-04:         "Hans", 123, "Sepp", 124 
-05:     };
-06: 
-07:     std::print("[");
-08:     for (auto i{ 0 }; const auto& elem : list) {
-09:         if (i != list.size() - 1) {
-10:             std::visit(
-11:                 [](const auto& value) {
-12:                     std::print("{}, ", value);
-13:                 },
-14:                 elem
-15:             );
-16:             ++i;
-17:         }
-18:     }
-19:     if (list.size() != 0) {
-20:         std::visit(
-21:             [](const auto& value) {
-22:                 std::print("{}", value);
-23:             },
-24:             list.back()
-25:         );
-26:     }
-27:     std::print("]");
-28: }
+03:     std::vector<std::variant<std::string, int>> list = { "Hans", 123, "Sepp", 124 };
+04: 
+05:     auto print_list = [](const auto& list) {
+06:         std::print("[");
+07:         for (size_t i{}; i != list.size(); ++i) {
+08:             std::visit(
+09:                 [i,&list](const auto& value) {
+10:                     std::print("{}{}", value, (i == list.size() - 1) ? "" : ", ");
+11:                 },
+12:                 list[i]
+13:             );
+14:         }
+15:         std::println("]");
+16:     };
+17: 
+18:     print_list(list);
+19: }
 ```
 
 *Ausgabe*:
 
 ```
-['Hans', 123, 'Sepp', 123]
+[Hans, 123, Sepp, 123]
 ```
 
 ---
@@ -251,16 +244,36 @@ Der optionale `step` definiert das Intervall zwischen den Elementen.
 ['cherry', 'strawberry', 'pear', 'pineapple']
 ```
 
-
-
 ### Realisierung in C++
 
 ```cpp
-TBD
+01: void example_lists()
+02: {
+03:     // 1. create original list
+04:     std::vector<std::string> fruits = { "apple", "banana", "cherry", "strawberry", "pear", "pineapple" };
+05: 
+06:     // 2. simulate sclicing "fruits[0:2]" / first two elements
+07:     std::vector<std::string> first_two(fruits.begin(), fruits.begin() + 2);
+08: 
+09:     // 3. simulate sclicing "fruits[2:]" / last elements
+10:     std::vector<std::string> remaining_fruits(fruits.begin() + 2, fruits.end());
+11: 
+12:     // output-function
+13:     auto print_list = [](const std::vector<std::string>& vec) {
+14:         std::print("[");
+15:         for (size_t i{}; i != vec.size(); ++i) {
+16:             std::print("\"{}\"{}", vec[i], (i == vec.size() - 1) ? "" : ", ");
+17:         }
+18:         std::println("]");
+19:     };
+20: 
+21:     print_list(fruits);
+22:     print_list(first_two);
+23:     print_list(remaining_fruits);
+24: }
 ```
 
 ---
-
 
 [Zurück](../../Readme.md)
 

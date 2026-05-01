@@ -1,6 +1,5 @@
 # Klasse `BankAccount`
 
-
 [Zurück](../../Readme.md)
 
 ---

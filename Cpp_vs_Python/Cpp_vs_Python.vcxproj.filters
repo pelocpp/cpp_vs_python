@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Tuples">
       <UniqueIdentifier>{fc8dc12e-d6bf-4e42-b239-b79bca3f8aec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Phonebook">
+      <UniqueIdentifier>{ad30310b-df00-4c23-b232-f9d300a99699}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="Tuples\Tuples.cpp">
       <Filter>Source Files\Tuples</Filter>
+    </ClCompile>
+    <ClCompile Include="Phonebook\Phonebook.cpp">
+      <Filter>Source Files\Phonebook</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +89,12 @@
     </None>
     <None Include="Tuples\Tuples.py">
       <Filter>Source Files\Tuples</Filter>
+    </None>
+    <None Include="Phonebook\Phonebook.md">
+      <Filter>Source Files\Phonebook</Filter>
+    </None>
+    <None Include="Phonebook\Phonebook.py">
+      <Filter>Source Files\Phonebook</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

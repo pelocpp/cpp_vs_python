@@ -127,6 +127,7 @@
     <ClCompile Include="BankAccount\BankAccount.cpp" />
     <ClCompile Include="BankAccount\BankAccount_Example.cpp" />
     <ClCompile Include="Lists\Lists.cpp" />
+    <ClCompile Include="Phonebook\Phonebook.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="TeuflischeFolge\TeuflischeFolge.cpp" />
     <ClCompile Include="Tuples\Tuples.cpp" />
@@ -138,6 +139,8 @@
     <None Include="BankAccount\BankAccount.py" />
     <None Include="Lists\Lists.md" />
     <None Include="Lists\Lists.py" />
+    <None Include="Phonebook\Phonebook.md" />
+    <None Include="Phonebook\Phonebook.py" />
     <None Include="TeuflischeFolge\TeuflischeFolge.md" />
     <None Include="TeuflischeFolge\TeuflischeFolge.py" />
     <None Include="Tuples\Tuples.md" />
