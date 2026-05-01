@@ -126,6 +126,7 @@
   <ItemGroup>
     <ClCompile Include="BankAccount\BankAccount.cpp" />
     <ClCompile Include="BankAccount\BankAccount_Example.cpp" />
+    <ClCompile Include="Dictionaries\Dictionaries.cpp" />
     <ClCompile Include="Lists\Lists.cpp" />
     <ClCompile Include="Phonebook\Phonebook.cpp" />
     <ClCompile Include="Program.cpp" />
@@ -137,6 +138,8 @@
     <None Include="..\Readme.md" />
     <None Include="BankAccount\BankAccount.md" />
     <None Include="BankAccount\BankAccount.py" />
+    <None Include="Dictionaries\Dictionaries.md" />
+    <None Include="Dictionaries\Dictionaries.py" />
     <None Include="Lists\Lists.md" />
     <None Include="Lists\Lists.py" />
     <None Include="Phonebook\Phonebook.md" />

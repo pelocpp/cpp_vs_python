@@ -31,6 +31,9 @@
     <Filter Include="Source Files\Phonebook">
       <UniqueIdentifier>{ad30310b-df00-4c23-b232-f9d300a99699}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Dictionaries">
+      <UniqueIdentifier>{d61a7914-585d-4143-b9aa-7e16c35e28dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="Phonebook\Phonebook.cpp">
       <Filter>Source Files\Phonebook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionaries\Dictionaries.cpp">
+      <Filter>Source Files\Dictionaries</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +101,12 @@
     </None>
     <None Include="Phonebook\Phonebook.py">
       <Filter>Source Files\Phonebook</Filter>
+    </None>
+    <None Include="Dictionaries\Dictionaries.md">
+      <Filter>Source Files\Dictionaries</Filter>
+    </None>
+    <None Include="Dictionaries\Dictionaries.py">
+      <Filter>Source Files\Dictionaries</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
