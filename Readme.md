@@ -8,7 +8,4 @@
 
 ## [Listen](./Cpp_vs_Python/Lists/Lists.md)
 
-
-
-
-
+## [Tuples](./Cpp_vs_Python/Tuples/Tuples.md)

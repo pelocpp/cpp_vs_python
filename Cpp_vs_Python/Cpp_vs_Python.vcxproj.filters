@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Lists">
       <UniqueIdentifier>{93793d3f-27a3-4a11-8a96-d17b1f797ab2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Tuples">
+      <UniqueIdentifier>{fc8dc12e-d6bf-4e42-b239-b79bca3f8aec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="Lists\Lists.cpp">
       <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuples\Tuples.cpp">
+      <Filter>Source Files\Tuples</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +77,12 @@
     </None>
     <None Include="BankAccount\BankAccount.py">
       <Filter>Source Files\BankAccount</Filter>
+    </None>
+    <None Include="Tuples\Tuples.md">
+      <Filter>Source Files\Tuples</Filter>
+    </None>
+    <None Include="Tuples\Tuples.py">
+      <Filter>Source Files\Tuples</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -223,6 +223,45 @@ lasse ich von nun ab der Einfachheit halber weg.
 
 ---
 
+##  Slicing Lists
+
+Slicing bietet eine leistungsstarke Methode, um eine Teilmenge von Elementen aus einer Liste zu extrahieren.
+Die Syntax für Slicing lautet `[start:stop:step]`,
+wobei `start` inklusive und `stop` exklusiv ist.
+Der optionale `step` definiert das Intervall zwischen den Elementen.
+
+### Realisierung in Python
+
+```python
+01: fruits = ['apple', 'banana', 'cherry', 'strawberry', 'pear', 'pineapple']
+02: print(fruits)
+03: 
+04: first_two = fruits[0:2]                # Gets the first two items
+05: print(first_two)
+06: 
+07: remaining_fruits = fruits[2:]          # Gets every remaining items
+08: print(remaining_fruits)
+```
+
+*Ausgabe*:
+
+```
+['apple', 'banana', 'cherry', 'strawberry', 'pear', 'pineapple']
+['apple', 'banana']
+['cherry', 'strawberry', 'pear', 'pineapple']
+```
+
+
+
+### Realisierung in C++
+
+```cpp
+TBD
+```
+
+---
+
+
 [Zurück](../../Readme.md)
 
 ---
