@@ -7,8 +7,7 @@
 #include <string>
 #include <unordered_map>
 
-
-// https://www.python-kurs.eu/python3_dictionaries.php
+https://www.python-kurs.eu/python3_dictionaries.php
 
 static void example_dictionaries_01()
 {
