@@ -7,8 +7,6 @@
 #include <string>
 #include <unordered_map>
 
-https://www.python-kurs.eu/python3_dictionaries.php
-
 static void example_dictionaries_01()
 {
     std::unordered_map<std::string, int> cities_inhabitants = {

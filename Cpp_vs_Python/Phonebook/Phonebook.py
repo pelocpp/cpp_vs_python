@@ -2,7 +2,6 @@
 # Phonebook.py
 # =====================================================================================
 
-
 # Da du von C++ kommst, ist der wichtigste Unterschied,
 # dass Python-Klassen dynamischer sind und wir oft Dictionaries verwenden,
 # um Daten effizient zu speichern.
@@ -196,12 +195,6 @@ class PhoneBook:
         if self._find_index(first, last) is not None: return False
         self._entries.append(Entry(first, last, number))
         return True
-
-
-if __name__ == "__main__":
-    # Benutzereingabe in eine int-Variable umwandeln
-    value = int(input("Startzahl: "))
-    example_teuflische_folge(value)
 
 # =====================================================================================
 # End-of-File
