@@ -9,12 +9,12 @@ extern void example_phonebook();
 extern void example_lists();
 extern void example_tuples();
 extern void example_dictionaries();
-
 extern void example_parameter_passing();
+extern void example_strings();
 
 int main()
 {
-    example_parameter_passing();
+    example_strings();
     return 0;
 }
 

@@ -16,6 +16,8 @@
 
 ### [Parameter Passing](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
 
+### [Zeichenketten](./Cpp_vs_Python/Strings/Strings.md)
+
 ---
 
 ## Vollständig werbefreie Online Python-Interpreter

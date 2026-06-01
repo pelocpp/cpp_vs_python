@@ -37,6 +37,9 @@
     <Filter Include="Source Files\ParameterPassing">
       <UniqueIdentifier>{8cc9e41a-3438-42e0-ace9-19888482962b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Strings">
+      <UniqueIdentifier>{914f0b71-e399-4ba8-a1db-2d700ef9276e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -68,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="ParameterPassing\ParameterPassing.cpp">
       <Filter>Source Files\ParameterPassing</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\Strings.cpp">
+      <Filter>Source Files\Strings</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +125,12 @@
     </None>
     <None Include="ParameterPassing\ParameterPassing.py">
       <Filter>Source Files\ParameterPassing</Filter>
+    </None>
+    <None Include="Strings\Strings.md">
+      <Filter>Source Files\Strings</Filter>
+    </None>
+    <None Include="Strings\Strings.py">
+      <Filter>Source Files\Strings</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

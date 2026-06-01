@@ -131,6 +131,7 @@
     <ClCompile Include="ParameterPassing\ParameterPassing.cpp" />
     <ClCompile Include="Phonebook\Phonebook.cpp" />
     <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Strings\Strings.cpp" />
     <ClCompile Include="TeuflischeFolge\TeuflischeFolge.cpp" />
     <ClCompile Include="Tuples\Tuples.cpp" />
     <ClCompile Include="Zinsrechnung\Zinsrechnung.cpp" />
@@ -147,6 +148,8 @@
     <None Include="ParameterPassing\ParameterPassing.py" />
     <None Include="Phonebook\Phonebook.md" />
     <None Include="Phonebook\Phonebook.py" />
+    <None Include="Strings\Strings.md" />
+    <None Include="Strings\Strings.py" />
     <None Include="TeuflischeFolge\TeuflischeFolge.md" />
     <None Include="TeuflischeFolge\TeuflischeFolge.py" />
     <None Include="Tuples\Tuples.md" />
