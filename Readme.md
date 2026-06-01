@@ -1,18 +1,20 @@
 # C++ versus Python in Beispielen
 
-## [Zinsrechnung](./Cpp_vs_Python/Zinsrechnung/Zinsrechnung.md)
+## Einige Beispiele
 
-## [Teuflische Folge](./Cpp_vs_Python/TeuflischeFolge/TeuflischeFolge.md)
+### [Zinsrechnung](./Cpp_vs_Python/Zinsrechnung/Zinsrechnung.md)
 
-## [Klasse `BankAccount`](./Cpp_vs_Python/BankAccount/BankAccount.md)
+### [Teuflische Folge](./Cpp_vs_Python/TeuflischeFolge/TeuflischeFolge.md)
 
-## [Listen](./Cpp_vs_Python/Lists/Lists.md)
+### [Klasse `BankAccount`](./Cpp_vs_Python/BankAccount/BankAccount.md)
 
-## [Tuples](./Cpp_vs_Python/Tuples/Tuples.md)
+### [Listen](./Cpp_vs_Python/Lists/Lists.md)
 
-## [Dictionaries](./Cpp_vs_Python/Dictionaries/Dictionaries.md)
+### [Tuples](./Cpp_vs_Python/Tuples/Tuples.md)
 
-## [Parameter Passing](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
+### [Dictionaries](./Cpp_vs_Python/Dictionaries/Dictionaries.md)
+
+### [Parameter Passing](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
 
 ---
 
