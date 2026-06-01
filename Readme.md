@@ -12,6 +12,24 @@
 
 ## [Dictionaries](./Cpp_vs_Python/Dictionaries/Dictionaries.md)
 
+## [Parameter Passing](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
+
+---
+
+## Vollständig werbefreie Online Python-Interpreter
+
+Einige der Online Python-Interpreter Plattformen finanzieren sich – anstelle von Bannerwerbung – durch Spenden,
+Open-Source-Communities etc. und gewährleisten so einen absolut störungsfreien Arbeitsablauf:
+
+[wandbox.org](https://wandbox.org/)
+
+[trinket.io](https://trinket.io/embed/python3)
+
+[tio](https://tio.run/#python3-pypy)
+
+---
+
+
 
 
 

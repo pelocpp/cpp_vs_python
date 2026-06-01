@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Dictionaries">
       <UniqueIdentifier>{d61a7914-585d-4143-b9aa-7e16c35e28dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ParameterPassing">
+      <UniqueIdentifier>{8cc9e41a-3438-42e0-ace9-19888482962b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -62,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="Dictionaries\Dictionaries.cpp">
       <Filter>Source Files\Dictionaries</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterPassing\ParameterPassing.cpp">
+      <Filter>Source Files\ParameterPassing</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +113,12 @@
     </None>
     <None Include="Dictionaries\Dictionaries.py">
       <Filter>Source Files\Dictionaries</Filter>
+    </None>
+    <None Include="ParameterPassing\ParameterPassing.md">
+      <Filter>Source Files\ParameterPassing</Filter>
+    </None>
+    <None Include="ParameterPassing\ParameterPassing.py">
+      <Filter>Source Files\ParameterPassing</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

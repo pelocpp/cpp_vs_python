@@ -128,6 +128,7 @@
     <ClCompile Include="BankAccount\BankAccount_Example.cpp" />
     <ClCompile Include="Dictionaries\Dictionaries.cpp" />
     <ClCompile Include="Lists\Lists.cpp" />
+    <ClCompile Include="ParameterPassing\ParameterPassing.cpp" />
     <ClCompile Include="Phonebook\Phonebook.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="TeuflischeFolge\TeuflischeFolge.cpp" />
@@ -142,6 +143,8 @@
     <None Include="Dictionaries\Dictionaries.py" />
     <None Include="Lists\Lists.md" />
     <None Include="Lists\Lists.py" />
+    <None Include="ParameterPassing\ParameterPassing.md" />
+    <None Include="ParameterPassing\ParameterPassing.py" />
     <None Include="Phonebook\Phonebook.md" />
     <None Include="Phonebook\Phonebook.py" />
     <None Include="TeuflischeFolge\TeuflischeFolge.md" />

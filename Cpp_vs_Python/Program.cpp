@@ -10,9 +10,11 @@ extern void example_lists();
 extern void example_tuples();
 extern void example_dictionaries();
 
+extern void example_parameter_passing();
+
 int main()
 {
-    example_dictionaries();
+    example_parameter_passing();
     return 0;
 }
 
