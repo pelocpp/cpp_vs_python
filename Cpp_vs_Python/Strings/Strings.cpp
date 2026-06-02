@@ -2,42 +2,44 @@
 // Strings.cpp // std::string
 // ===========================================================================
 
-#include <string>
-#include <print>
 
-void strings_demo()
+#include <cstddef>
+#include <print>
+#include <string>
+
+static void strings_demo()
 {
-    std::string s = "12345";
+    std::string s{ "12345" };
     std::println("String: {}", s);
 
     // len
-    size_t length = s.length(); // oder s.size()
-    bool empty = s.empty();
+    std::size_t length{ s.length() }; // oder s.size()
+    bool empty{ s.empty() };
     std::println("Length: {} - Empty: {}", length, empty);
 
     // find
-    size_t pos = s.find("3");
+    std::size_t pos{ s.find("3") };
     if (pos != std::string::npos) {
         std::println("Pos: {}", pos);
     }
 
     // replace
-    size_t replacePos = s.find("3");
+    std::size_t replacePos{ s.find("3") };
     if (replacePos != std::string::npos) {
         s.replace(replacePos, 1, "ABABA"); // pos, len, new string     
     }
     std::println("String: {}", s);
 
     // count
-    std::size_t count = std::count(s.begin(), s.end(), 'A');
+    std::size_t count{ static_cast<std::size_t> (std::count(s.begin(), s.end(), 'A')) };
     std::println("Count: {}", count);
 
     // startswith (use rfind with index 0)
-    bool n = (s.rfind("12", 0) == 0);
+    bool n{ s.rfind("12", 0) == 0 };
     std::println("startswith: {}", n);
 
     // endswith
-    bool ends = false;
+    bool ends{ false };
     if (s.length() >= 1) {
         ends = (s.compare(s.length() - 1, 1, "X") == 0);
     }
@@ -64,8 +66,8 @@ void strings_demo()
     std::println("equals s1==s3: {}", n);
 
     // string to int
-    std::string number = "123";
-    int value = std::stoi(number);
+    std::string number{ "123" };
+    int value{ std::stoi(number) };
     std::println("Number: {}", value);
 }
 

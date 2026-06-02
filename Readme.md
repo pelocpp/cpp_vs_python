@@ -20,9 +20,9 @@
 
 ---
 
-## Vollständig werbefreie Online Python-Interpreter
+## Online Python-Interpreter
 
-Einige der Online Python-Interpreter Plattformen finanzieren sich – anstelle von Bannerwerbung – durch Spenden,
+Einige der Online Python-Interpreter Plattformen finanzieren sich &ndash; anstelle von Bannerwerbung &ndash; durch Spenden,
 Open-Source-Communities etc. und gewährleisten so einen absolut störungsfreien Arbeitsablauf:
 
 [wandbox.org](https://wandbox.org/)

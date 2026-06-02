@@ -27,7 +27,7 @@ static void example_lists_02_heterogeneous()
 {
     std::vector<std::variant<std::string, int>> list = { "Hans", 123, "Sepp", 124 };
 
-    auto print_list = [](const auto& list) {
+    auto print_list = [] (const auto& list) {
         std::print("[");
         for (size_t i{}; i != list.size(); ++i) {
             std::visit(

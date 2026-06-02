@@ -1,7 +1,17 @@
 // ===========================================================================
 // Program.cpp // Cpp versus Python
+// https://github.com/pelocpp
 // ===========================================================================
 
+// ===========================================================================
+// defines / includes
+
+#include <print>
+#define MessageText "Collection of C++/Python Comparison Code Examples - Copyright (C) 2026 Peter Loos."
+#pragma message(MessageText)
+
+// ===========================================================================
+// external function prototypes
 extern void example_teuflische_folge();
 extern void example_zinsrechnung();
 extern void example_bank_account();
@@ -14,7 +24,19 @@ extern void example_strings();
 
 int main()
 {
-    example_strings();
+    std::println(MessageText);
+
+    //example_teuflische_folge();
+    //example_zinsrechnung();
+    //example_bank_account();
+    //example_phonebook();
+    //example_lists();
+    //example_tuples();
+    //example_dictionaries();
+    //example_parameter_passing();
+    //example_strings();
+
+    std::println("Done.");
     return 0;
 }
 
