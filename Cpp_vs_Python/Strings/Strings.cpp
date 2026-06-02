@@ -5,107 +5,68 @@
 #include <string>
 #include <print>
 
-static void strings_demo()
+void strings_demo()
 {
-    // standard class 'std::string'
+    std::string s = "12345";
+    std::println("String: {}", s);
 
-    // constructor
-    std::string s("12345");
+    // len
+    size_t length = s.length(); // oder s.size()
+    bool empty = s.empty();
+    std::println("Length: {} - Empty: {}", length, empty);
 
-    // operator <<
-    //std::cout << s << std::endl;
-    std::println("{}", s);
+    // find
+    size_t pos = s.find("3");
+    if (pos != std::string::npos) {
+        std::println("Pos: {}", pos);
+    }
 
-    // getter: size
-    size_t len = s.size();
-    //std::cout << "Length: " << len << std::endl;
-    std::println("Length: {}", len);
+    // replace
+    size_t replacePos = s.find("3");
+    if (replacePos != std::string::npos) {
+        s.replace(replacePos, 1, "ABABA"); // pos, len, new string     
+    }
+    std::println("String: {}", s);
 
-    // getter: empty
-    bool b = s.empty();
-   // std::cout << "Empty: " << std::boolalpha << b << std::endl;
-    std::println("Empty: {}", b);
+    // count
+    std::size_t count = std::count(s.begin(), s.end(), 'A');
+    std::println("Count: {}", count);
 
-    // method: insert
-    // insert "ABC" at position 2
-    s.insert(2, "ABC");
- //   std::cout << "s.insert(2, \"ABC\") ==> " << s << std::endl;
+    // startswith (use rfind with index 0)
+    bool n = (s.rfind("12", 0) == 0);
+    std::println("startswith: {}", n);
 
-    // method: append
-    // append "!!!"
-    s.append("!!!");
-   // std::cout << "s.append(\"!!!\")    ==> " << s << std::endl;
-    std::println("append: {}", s);
+    // endswith
+    bool ends = false;
+    if (s.length() >= 1) {
+        ends = (s.compare(s.length() - 1, 1, "X") == 0);
+    }
+    std::println("endswith: {}", n);
 
-    // comparison operators
-    std::string s1("12345");
-    std::string s2("12345");
-    std::string s3("123456");
+    // insert
+    if (s.length() >= 5) {
+        s.insert(5, "XYZ");
+    }
+    std::println("String: {}", s);
 
-    bool b1 = (s1 == s2);
-    bool b2 = (s1 == s3);
+    // append
+    s += "!!!";
+    std::println("String: {}", s);
 
-    //std::cout << "s1 == s2           ==> " << std::boolalpha << b1 << std::endl;
-    //std::cout << "s1 == s3           ==> " << std::boolalpha << b2 << std::endl;
-    std::println("s1 == s2: {}", b1);
-    std::println("s1 == s3: {}", b2);
+    // equals
+    std::string s1 = "12345";
+    std::string s2 = "12345";
+    std::string s3 = "123456";
 
+    n = (s1 == s2);
+    std::println("equals s1==s2: {}", n);
+    n = (s1 == s3);
+    std::println("equals s1==s3: {}", n);
 
-    // method: substr - retrieve a substring
-    // first param = position of the first character to include
-    // second param = length of the substring
-    std::string sub = s1.substr(1, 3);
-  //  std::cout << "s1.substr(1, 3)    ==> " << sub << std::endl;
-    std::println("s1.substr(1, 3): {}", sub);
-        
-    // index operator []
-    s[2] = '?';
-   // std::cout << "s[2] = '?'         ==> " << s << std::endl;
-
-    // method: append
-    // append another std::string object
-    s1.append(s2);
-    //  std::cout << "s1.append(s2)      ==> " << s1 << std::endl;
-
-    // operator +
-    // concatenating two strings (same as using method append)
-    std::string result = s1 + s3;
-    //  std::cout << "s1 + s3            ==> " << result << std::endl;
-
-    // converting a string to an integer
-    std::string number("123");
+    // string to int
+    std::string number = "123";
     int value = std::stoi(number);
-    // std::cout << "std::stoi(\"123\")   ==> " << value << std::endl;
-}
-
-static void strings_demo_02()
-{
-    std::string s{ "12345" };
-    std::println("{}", s);
-
-    auto len = s.size();
-    auto empty = s.empty();
-
-    s.insert(2, "ABC");
-    s.append("!!!");
-
-    std::string s1("12345");
-    std::string s2("12345");
-    std::string s3("123456");
-
-    bool b;
-    b = (s1 == s2);
-    b = (s1 == s3);
-
-    std::string sub{ s1.substr(1, 3) };
-
-    s[2] = '?';
-    char ch = s[0];
-
-    std::string result{ s1 + s3 };
-
-    std::string number{ "123" };
-    int value = std::stoi(number);
+    std::println("Number: {}", value);
 }
 
 void example_strings()

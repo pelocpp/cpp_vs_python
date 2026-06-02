@@ -4,33 +4,56 @@
 
 def strings_demo():
     s = "12345"
-    print(s)
+    print(f"String: {s}")
 
+    # len
     length = len(s)
-    empty = len(s) == 0  # Or simply: empty = not s
+    empty = len(s) == 0
+    print(f"Length: {length} - Empty: {empty}")
 
-    # Strings are immutable; we recreate them via slicing
-    s = s[:2] + "ABC" + s[2:]
+    # find
+    pos = s.find("3")
+    print(f"Pos: {pos}")
+
+    # replace
+    s = s.replace("3", "ABABA")
+    print(f"String: {s}")
+    
+    # count
+    count = s.count("A");
+    print(f"Count: {count}")
+  
+    # startswith
+    n = s.startswith("12")
+    print(f"startswith: {n}")
+
+    # endswith
+    n = s.endswith("X")
+    print(f"endswith: {n}")
+
+    # insert
+    s = s[:5] + "XYZ" + s[5:]
+    print(f"String: {s}")
+    
+    # append
     s += "!!!"
-
+    print(f"String: {s}")
+    
+    # equals
     s1 = "12345"
     s2 = "12345"
     s3 = "123456"
 
-    b = (s1 == s2)
-    b = (s1 == s3)
-
-    # Substring uses slicing: s[start:end] (end index is exclusive)
-    sub = s1[1:4]
-
-    # Modifying a character requires reconstruction
-    s = s[:2] + '?' + s[3:]
-    ch = s[0]
-
-    result = s1 + s3
+    n = (s1 == s2)
+    print(f"equals s1==s2: {n}")
+    n = (s1 == s3)
+    print(f"equals s1==s2: {n}")
 
     number = "123"
     value = int(number)
+    print(f"Number: {number}")
+    
+strings_demo()
 
 # =====================================================================================
 # End-of-File
