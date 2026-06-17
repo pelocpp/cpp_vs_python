@@ -18,12 +18,14 @@
 
 ### [Zeichenketten](./Cpp_vs_Python/Strings/Strings.md)
 
+### [Enumerationen](./Cpp_vs_Python/Enumeration/Enumeration.md)
+
 ---
 
 ## Online Python-Interpreter
 
-Einige der Online Python-Interpreter Plattformen finanzieren sich &ndash; anstelle von Bannerwerbung &ndash; durch Spenden,
-Open-Source-Communities etc. und gewährleisten so einen absolut störungsfreien Arbeitsablauf:
+Einige der Online Python-Interpreter treten durch störende Bannerwerbung in Erscheinung.
+Die nachfolgend aufgelisteten Python-Interpreter kommen weitesgehend ohne Werbung aus:
 
 [wandbox.org](https://wandbox.org/)
 
@@ -31,70 +33,6 @@ Open-Source-Communities etc. und gewährleisten so einen absolut störungsfreien
 
 [tio](https://tio.run/#python3-pypy)
 
+[python playground](https://www.onlineide.pro/playground/python)
+
 ---
-
-
-
-
-
-"Berlin",
-"Hamburg",
-"Muenchen",
-"Koeln",
-"Frankfurt am Main",
-"Stuttgart",
-"Duesseldorf",
-"Leipzig",
-"Dortmund",
-"Essen"
-
-cities = [
-    "Berlin",
-    "Hamburg",
-    "Muenchen",
-    "Koeln",
-    "Frankfurt am Main",
-    "Stuttgart",
-    "Duesseldorf",
-    "Leipzig",
-    "Dortmund",
-    "Essen"
-]
-
-
-cities = [
-    "Berlin",
-    "Hamburg",
-    "Muenchen",
-    "Koeln",
-    "Frankfurt am Main",
-    "Stuttgart",
-    "Duesseldorf",
-    "Leipzig",
-    "Dortmund",
-    "Essen"
-]
-
-k = 0
-while k < len(cities):
-    print(cities[k])
-    k += 1
-
-for city in cities:
-    print(city)
-
-for i, city in enumerate(cities, start = 1):
-    print(f"City {i:2}: {city}")
-
-for city in reversed(cities):
-    print(city)
-
-for i, city in reversed(list(enumerate(cities, start = 1))):
-    print(f"City {i:2}: {city}")
-
-for i, city in enumerate(reversed(cities), start = 1):
-    print(f"City {i:2}: {city}")
-
-https://www.onlineide.pro/playground/python
-
-

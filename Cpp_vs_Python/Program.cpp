@@ -21,6 +21,7 @@ extern void example_tuples();
 extern void example_dictionaries();
 extern void example_parameter_passing();
 extern void example_strings();
+extern void example_enumeration();
 
 int main()
 {
@@ -35,6 +36,7 @@ int main()
     //example_dictionaries();
     //example_parameter_passing();
     //example_strings();
+    example_enumeration();
 
     std::println("Done.");
     return 0;

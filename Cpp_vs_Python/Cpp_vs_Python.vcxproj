@@ -127,6 +127,7 @@
     <ClCompile Include="BankAccount\BankAccount.cpp" />
     <ClCompile Include="BankAccount\BankAccount_Example.cpp" />
     <ClCompile Include="Dictionaries\Dictionaries.cpp" />
+    <ClCompile Include="Enumeration\Enumeration.cpp" />
     <ClCompile Include="Lists\Lists.cpp" />
     <ClCompile Include="ParameterPassing\ParameterPassing.cpp" />
     <ClCompile Include="Phonebook\Phonebook.cpp" />
@@ -142,6 +143,8 @@
     <None Include="BankAccount\BankAccount.py" />
     <None Include="Dictionaries\Dictionaries.md" />
     <None Include="Dictionaries\Dictionaries.py" />
+    <None Include="Enumeration\Enumeration.md" />
+    <None Include="Enumeration\Enumeration.py" />
     <None Include="Lists\Lists.md" />
     <None Include="Lists\Lists.py" />
     <None Include="ParameterPassing\ParameterPassing.md" />
