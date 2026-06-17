@@ -27,15 +27,15 @@ int main()
 {
     std::println(MessageText);
 
-    //example_teuflische_folge();
-    //example_zinsrechnung();
-    //example_bank_account();
-    //example_phonebook();
-    //example_lists();
-    //example_tuples();
-    //example_dictionaries();
-    //example_parameter_passing();
-    //example_strings();
+    example_teuflische_folge();
+    example_zinsrechnung();
+    example_bank_account();
+    example_phonebook();
+    example_lists();
+    example_tuples();
+    example_dictionaries();
+    example_parameter_passing();
+    example_strings();
     example_enumeration();
 
     std::println("Done.");
