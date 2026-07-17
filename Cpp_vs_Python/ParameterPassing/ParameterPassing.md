@@ -49,6 +49,8 @@ x: 20
 x: 40
 ```
 
+---
+
 ## Realisierung in Python
 
 ```python

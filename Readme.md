@@ -1,12 +1,26 @@
 # C++ versus Python in Beispielen
 
-## Einige Beispiele
+## Erste Schritte
 
 ### [Zinsrechnung](./Cpp_vs_Python/Zinsrechnung/Zinsrechnung.md)
 
 ### [Teuflische Folge](./Cpp_vs_Python/TeuflischeFolge/TeuflischeFolge.md)
 
+### [Zeichenketten](./Cpp_vs_Python/Strings/Strings.md)
+
+---
+
+## Objektorientierung: Klasse und Objekt
+
 ### [Klasse `BankAccount`](./Cpp_vs_Python/BankAccount/BankAccount.md)
+
+---
+
+## Objektorientierung: Vererbung
+
+---
+
+## Datenstrukturen
 
 ### [Listen](./Cpp_vs_Python/Lists/Lists.md)
 
@@ -14,11 +28,15 @@
 
 ### [Dictionaries](./Cpp_vs_Python/Dictionaries/Dictionaries.md)
 
+### [Enumerationen](./Cpp_vs_Python/Enumeration/Enumeration.md)
+
+---
+
+## Fortgeschrittene Themen
+
 ### [Parameter Passing](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
 
-### [Zeichenketten](./Cpp_vs_Python/Strings/Strings.md)
-
-### [Enumerationen](./Cpp_vs_Python/Enumeration/Enumeration.md)
+### [Shallow versus Deep Copy](./Cpp_vs_Python/Shallow_vs_Deep_Copy/Shallow_vs_Deep_Copy.md)
 
 ---
 

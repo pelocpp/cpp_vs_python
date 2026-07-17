@@ -47,6 +47,7 @@ Zum Testen des Beispiels sind `7` und `27` geeignete Startwerte:
 36: }
 ```
 
+---
 
 ## Realisierung in Python
 

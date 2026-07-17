@@ -173,6 +173,8 @@ Ein kleines Beispiel für eine Anwendung der Klasse `BankAccount`:
 22: }
 ```
 
+---
+
 ## Realisierung in Python
 
 ```python

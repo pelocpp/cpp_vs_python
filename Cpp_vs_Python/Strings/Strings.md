@@ -89,6 +89,8 @@ equals s1==s3: false
 Number: 123
 ```
 
+---
+
 ## Realisierung in Python
 
 ```python

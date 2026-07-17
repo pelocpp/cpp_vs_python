@@ -22,21 +22,23 @@ extern void example_dictionaries();
 extern void example_parameter_passing();
 extern void example_strings();
 extern void example_enumeration();
+extern void example_shallow_vs_deep_copy();
 
 int main()
 {
     std::println(MessageText);
 
-    example_teuflische_folge();
-    example_zinsrechnung();
-    example_bank_account();
-    example_phonebook();
-    example_lists();
-    example_tuples();
-    example_dictionaries();
-    example_parameter_passing();
-    example_strings();
-    example_enumeration();
+    //example_teuflische_folge();
+    //example_zinsrechnung();
+    //example_bank_account();
+    //example_phonebook();
+    //example_lists();
+    //example_tuples();
+    //example_dictionaries();
+    //example_parameter_passing();
+    //example_strings();
+    //example_enumeration();
+    example_shallow_vs_deep_copy();
 
     std::println("Done.");
     return 0;
