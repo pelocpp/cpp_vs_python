@@ -1,4 +1,4 @@
-# Parameter Passing
+# Parameterübergabe
 
 [Zurück](../../Readme.md)
 

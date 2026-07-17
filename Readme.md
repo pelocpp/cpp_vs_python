@@ -34,7 +34,7 @@
 
 ## Fortgeschrittene Themen
 
-### [Parameter Passing](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
+### [Parameterübergabe](./Cpp_vs_Python/ParameterPassing/ParameterPassing.md)
 
 ### [Shallow versus Deep Copy](./Cpp_vs_Python/Shallow_vs_Deep_Copy/Shallow_vs_Deep_Copy.md)
 
