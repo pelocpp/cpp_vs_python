@@ -14,6 +14,7 @@
 // external function prototypes
 extern void example_teuflische_folge();
 extern void example_zinsrechnung();
+extern void example_procedures_functions();
 extern void example_bank_account();
 extern void example_phonebook();
 extern void example_lists();
@@ -30,6 +31,7 @@ int main()
 
     //example_teuflische_folge();
     //example_zinsrechnung();
+    example_procedures_functions();
     //example_bank_account();
     //example_phonebook();
     //example_lists();
@@ -38,7 +40,7 @@ int main()
     //example_parameter_passing();
     //example_strings();
     //example_enumeration();
-    example_shallow_vs_deep_copy();
+    //example_shallow_vs_deep_copy();
 
     std::println("Done.");
     return 0;

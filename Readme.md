@@ -53,4 +53,12 @@ Die nachfolgend aufgelisteten Python-Interpreter kommen weitesgehend ohne Werbun
 
 [python playground](https://www.onlineide.pro/playground/python)
 
+*Bemerkung*:<br />
+Einige der vorgestellten Online Python-Interpreter tun sich schwer damit, Eingaben von der Konsole zu verarbeiten (Funktion `input`).
+Dies liegt einfach daran, dass z. B. Wandbox das Python-Skript in der Cloud ausführt, dort aber sind Konsoleneingaben nicht vorgesehen.
+
+Der folgende Online Python-Interpreter kann damit umgehen:
+
+[Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/)
+
 ---

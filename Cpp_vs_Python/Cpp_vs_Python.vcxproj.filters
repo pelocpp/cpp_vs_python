@@ -46,6 +46,9 @@
     <Filter Include="Source Files\Shallow_vs_Deep_Copy">
       <UniqueIdentifier>{00a622a9-b080-40b2-8629-f1b19901bbb8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Procedures_Functions">
+      <UniqueIdentifier>{74ceb334-9983-471a-88b3-9d1bdb36dd04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -86,6 +89,9 @@
     </ClCompile>
     <ClCompile Include="Shallow_vs_Deep_Copy\Shallow_vs_Deep_Copy.cpp">
       <Filter>Source Files\Shallow_vs_Deep_Copy</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedures_Functions\Procedures_Functions.cpp">
+      <Filter>Source Files\Procedures_Functions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +161,12 @@
     </None>
     <None Include="Shallow_vs_Deep_Copy\Shallow_vs_Deep_Copy.py">
       <Filter>Source Files\Shallow_vs_Deep_Copy</Filter>
+    </None>
+    <None Include="Procedures_Functions\Procedures_Functions.md">
+      <Filter>Source Files\Procedures_Functions</Filter>
+    </None>
+    <None Include="Procedures_Functions\Procedures_Functions.py">
+      <Filter>Source Files\Procedures_Functions</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
