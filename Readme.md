@@ -8,6 +8,8 @@
 
 ### [Zeichenketten](./Cpp_vs_Python/Strings/Strings.md)
 
+### [Unterprogramme (Prozeduren / Funktionen)](./Cpp_vs_Python/Procedures_Functions/Procedures_Functions.md)
+
 ---
 
 ## Objektorientierung: Klasse und Objekt
