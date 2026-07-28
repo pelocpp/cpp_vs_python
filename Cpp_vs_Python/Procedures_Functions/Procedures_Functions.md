@@ -49,8 +49,8 @@
 
 In Python kann man zwei Realisierungen unterscheiden:
 
-  * Eine minimale Realisierung, die ohne Verwendung von Typ-Hinweise auskommt
-  * Eine Realisierung mit Typ-Hinweisen
+  * Eine minimale Realisierung, die ohne Verwendung von Typ-Hinweisen auskommt.
+  * Eine Realisierung mit Typ-Hinweisen.
 
 Mit Typ-Hinweisen:
 
@@ -108,6 +108,17 @@ Ohne Typ-Hinweise:
 22: 
 23: example_01()
 24: example_01()
+```
+
+*Ausgabe*:
+
+```
+I'm saying Hello :)
+I'm saying Hello :)
+
+... and Goodbye!
+... and Goodbye!
+... and Goodbye!
 ```
 
 ---
