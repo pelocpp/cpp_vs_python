@@ -52,6 +52,12 @@ In Python kann man zwei Realisierungen unterscheiden:
   * Eine minimale Realisierung, die ohne Verwendung von Typ-Hinweisen auskommt.
   * Eine Realisierung mit Typ-Hinweisen.
 
+Typ-Hinweise (*Type Hints*) sind eine Funktionalität in Python,
+die es Entwicklern ermöglicht, den Quellcode mit den erwarteten Datentypen für Variablen und Funktionsargumenten zu versehen.
+
+Dies verbessert die Lesbarkeit des Codes und bietet die Möglichkeit,
+Fehler mithilfe von Typ-Prüfern wie *mypy* bereits vor der Laufzeit zu erkennen.
+
 Mit Typ-Hinweisen:
 
 ```python
