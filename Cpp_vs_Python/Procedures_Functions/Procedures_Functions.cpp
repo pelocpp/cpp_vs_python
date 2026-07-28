@@ -18,8 +18,7 @@ static void sayHello(std::size_t count, const std::string& message)
 static void example_procedures_functions_01()
 {
     sayHello(2, "I'm saying Hello :)");
-
-    sayHello(3, "I'm saying Hello :)");
+    sayHello(3, "... and Goodbye!");
 }
 
 static std::size_t powerOf(std::size_t base, std::size_t exponent)

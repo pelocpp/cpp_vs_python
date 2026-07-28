@@ -10,7 +10,7 @@ def say_hello(count: int, message: str) -> None:
 
 def example_procedures_functions_01() -> None:
     say_hello(2, "I'm saying Hello :)")
-    say_hello(3, "I'm saying Hello :)")
+    say_hello(3, "... and Goodbye!")
 
 
 def power_of(base: int, exponent: int) -> int:
