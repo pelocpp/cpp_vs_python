@@ -45,7 +45,7 @@
 ## Online Python-Interpreter
 
 Einige der Online Python-Interpreter treten durch störende Bannerwerbung in Erscheinung.
-Die nachfolgend aufgelisteten Python-Interpreter kommen weitesgehend ohne Werbung aus:
+Die nachfolgend aufgelisteten Python-Interpreter kommen weitestgehend ohne Werbung aus:
 
 [wandbox.org](https://wandbox.org/)
 
