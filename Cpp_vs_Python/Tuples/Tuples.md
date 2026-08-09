@@ -65,7 +65,7 @@ Ein etwas komplexeres Beispiel:
 03:     "John",
 04:     35,
 05:     "Python Developer",
-06:     ("Django", "Flask", "FastAPI", "CSS", "HTML")
+06:     ["Django", "Flask", "FastAPI", "CSS", "HTML"]
 07: )
 08: 
 09: # accessing the first skill

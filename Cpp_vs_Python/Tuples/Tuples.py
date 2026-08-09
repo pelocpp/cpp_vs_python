@@ -10,7 +10,7 @@ employee = (
     "John",
     35,
     "Python Developer",
-    ("Django", "Flask", "FastAPI", "CSS", "HTML")
+    ["Django", "Flask", "FastAPI", "CSS", "HTML"]
 )
 print(employee) 
 
