@@ -64,3 +64,18 @@ Der folgende Online Python-Interpreter kann damit umgehen:
 [Programiz Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/)
 
 ---
+
+## Youtube: &bdquo;The Story of Python and how it took over the world | Python: The Documentary&rdquo;
+
+  * [Python: The Documentary](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
+	
+	Dies ist die Geschichte der weltweit beliebtesten Programmiersprache: Python.
+	Was in den 1990er Jahren in Amsterdam als Nebenprojekt begann, entwickelte sich zu der Software,
+	die heute künstliche Intelligenz, Data Science und einige der größten Unternehmen der Welt antreibt.
+	Doch die Zukunft von Python war keineswegs gesichert; zeitweise stand die Sprache sogar kurz vor dem Aus.
+
+    In dieser 90-minütigen Dokumentation erzählen unter anderem Guido van Rossum, Travis Oliphant und Barry Warsaw
+	die Geschichte von Pythons Aufstieg, seiner von der Community vorangetriebenen Weiterentwicklung,
+	den Konflikten, die die Sprache beinahe zerrissen hätten, und ihrem Einfluss auf – nun ja – so ziemlich alles.
+
+---
