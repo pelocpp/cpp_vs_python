@@ -31,7 +31,7 @@ int main()
 
     //example_teuflische_folge();
     //example_zinsrechnung();
-    example_procedures_functions();
+    //example_procedures_functions();
     //example_bank_account();
     //example_phonebook();
     //example_lists();
