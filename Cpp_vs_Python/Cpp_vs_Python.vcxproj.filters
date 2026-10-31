@@ -49,6 +49,9 @@
     <Filter Include="Source Files\Procedures_Functions">
       <UniqueIdentifier>{74ceb334-9983-471a-88b3-9d1bdb36dd04}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Value_vs_Reference_Semantics">
+      <UniqueIdentifier>{95ab9d37-b20e-443c-ac28-f29fee8f4fd1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="Procedures_Functions\Procedures_Functions.cpp">
       <Filter>Source Files\Procedures_Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Value_vs_Reference_Semantics\Value_vs_Reference_Semantics.cpp">
+      <Filter>Source Files\Value_vs_Reference_Semantics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +173,12 @@
     </None>
     <None Include="Procedures_Functions\Procedures_Functions.py">
       <Filter>Source Files\Procedures_Functions</Filter>
+    </None>
+    <None Include="Value_vs_Reference_Semantics\Value_vs_Reference_Semantics.md">
+      <Filter>Source Files\Value_vs_Reference_Semantics</Filter>
+    </None>
+    <None Include="Value_vs_Reference_Semantics\Value_vs_Reference_Semantics.py">
+      <Filter>Source Files\Value_vs_Reference_Semantics</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

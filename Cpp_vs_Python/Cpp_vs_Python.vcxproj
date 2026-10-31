@@ -137,6 +137,7 @@
     <ClCompile Include="Strings\Strings.cpp" />
     <ClCompile Include="TeuflischeFolge\TeuflischeFolge.cpp" />
     <ClCompile Include="Tuples\Tuples.cpp" />
+    <ClCompile Include="Value_vs_Reference_Semantics\Value_vs_Reference_Semantics.cpp" />
     <ClCompile Include="Zinsrechnung\Zinsrechnung.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +164,8 @@
     <None Include="TeuflischeFolge\TeuflischeFolge.py" />
     <None Include="Tuples\Tuples.md" />
     <None Include="Tuples\Tuples.py" />
+    <None Include="Value_vs_Reference_Semantics\Value_vs_Reference_Semantics.md" />
+    <None Include="Value_vs_Reference_Semantics\Value_vs_Reference_Semantics.py" />
     <None Include="Zinsrechnung\Zinsrechnung.md" />
     <None Include="Zinsrechnung\Zinsrechnung.py" />
   </ItemGroup>

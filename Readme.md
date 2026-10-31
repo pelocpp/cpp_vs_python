@@ -49,8 +49,6 @@ Die nachfolgend aufgelisteten Python-Interpreter kommen weitestgehend ohne Werbu
 
 [wandbox.org](https://wandbox.org/)
 
-[trinket.io](https://trinket.io/embed/python3)
-
 [tio](https://tio.run/#python3-pypy)
 
 [python playground](https://www.onlineide.pro/playground/python)
