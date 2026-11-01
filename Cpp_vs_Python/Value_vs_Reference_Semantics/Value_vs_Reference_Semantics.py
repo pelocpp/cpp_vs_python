@@ -2,6 +2,8 @@
 # Value_vs_Reference_Semantics.py
 # =====================================================================================
 
+import copy
+
 class Person:
     def __init__(self, name = "", last = "", age = 0):
         self.name = name
@@ -9,16 +11,27 @@ class Person:
         self.age  = age
 
     def __str__(self):
-        return f"Person: {self.name} {self.last}, Alter: {self.age}"        
+        return (f"Person: {self.name} {self.last}, "
+                f"Alter: {self.age}")   
 
-def value_vs_reference_semantics_demo():
-    hans = Person("Hans", "Meier", 30
+def main():
+    empty = None
+    print(empty)
+    hans = Person("Hans", "Meier", 30)
+    print(hans) 
 
-    empty = Person()
-
+def main_copy():
+    hans = Person("Hans", "Meier", 30)
     print(hans)
+    copy_hans = copy.deepcopy(hans) 
+    print(copy)
 
-value_vs_reference_semantics_demo()
+    hans.age = 31
+    print(hans)
+    print(copy_hans)
+
+main()
+main_copy()
 
 # =====================================================================================
 # End-of-File
